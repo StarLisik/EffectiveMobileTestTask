@@ -1,0 +1,104 @@
+2024-10-25 16:38:16.9615 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 16:38:37.8676 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:12:50.8466 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:12:50.8602 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:12:50.8602 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:12:50.8602 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:12:50.8602 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:12:50.8602 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:12:50.8602 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:15:31.9496 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:15:31.9496 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:15:31.9496 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:15:31.9496 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:15:31.9496 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:15:31.9496 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:15:31.9496 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:17:40.5912 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:17:40.5912 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:17:40.5912 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:17:40.5912 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:17:40.5912 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:17:40.5912 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:17:40.5912 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:17:47.3136 | INFO | 1 orders filtered and saved to _deliveryOrders.txt
+2024-10-25 17:18:36.3644 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:18:36.3777 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:18:36.3777 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:18:36.3777 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:18:36.3777 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:18:36.3777 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:18:36.3777 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:18:36.3847 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-25 17:19:18.4825 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:19:18.4955 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:19:18.4955 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:19:18.4955 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:19:18.4955 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:19:18.4955 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:19:18.4955 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:19:18.4955 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-25 17:34:18.2003 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:34:18.2154 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:34:18.2154 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:34:18.2154 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:34:18.2154 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:34:18.2154 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:34:18.2154 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:34:18.2233 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-25 17:35:27.4709 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:35:27.4850 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:35:27.4850 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:35:27.4850 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:35:27.4850 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:35:27.4850 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:35:27.4850 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:35:27.4936 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-25 17:36:09.3016 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:36:09.3197 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:36:09.3197 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:36:09.3197 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:36:09.3197 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:36:09.3197 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:36:09.3197 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:36:09.3197 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-25 17:36:30.7812 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:36:30.7981 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:36:30.7981 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:36:30.7981 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:36:30.7981 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:36:30.7981 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:36:30.7981 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:36:30.8088 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-25 17:36:45.3037 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:36:45.3202 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:36:45.3202 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:36:45.3202 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:36:45.3202 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:36:45.3202 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:36:45.3202 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:36:45.3202 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-25 17:39:25.0702 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:39:25.0841 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:39:25.0841 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:39:25.0841 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:39:25.0841 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:39:25.0841 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:39:25.0841 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:39:25.0913 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-25 17:39:55.4464 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:39:55.4650 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:39:55.4650 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:39:55.4650 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:39:55.4650 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:39:55.4650 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:39:55.4650 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:39:55.4752 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-25 17:46:56.9775 | INFO | Order with ID: 1 succesfully added!
+2024-10-25 17:46:56.9899 | INFO | Order with ID: 2 succesfully added!
+2024-10-25 17:46:56.9899 | INFO | Order with ID: 3 succesfully added!
+2024-10-25 17:46:56.9899 | INFO | Order with ID: 4 succesfully added!
+2024-10-25 17:46:56.9899 | INFO | Order with ID: 5 succesfully added!
+2024-10-25 17:46:56.9899 | INFO | Order with ID: 6 succesfully added!
+2024-10-25 17:46:56.9899 | INFO | Order with ID: 7 succesfully added!
+2024-10-25 17:46:56.9899 | INFO | 3 orders filtered and saved to _deliveryOrders.txt

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dJhzqSR4uoo=",
+  "success": true,
+  "projectFilePath": "C:\\MyFolder\\Programs\\VisualStudioProjects\\EffictiveMobileTestTask\\EffectiveMobileTestTask.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rodio\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512"
+  ],
+  "logs": []
+}

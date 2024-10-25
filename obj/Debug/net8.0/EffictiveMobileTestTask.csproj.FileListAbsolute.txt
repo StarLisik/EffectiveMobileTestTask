@@ -1,0 +1,14 @@
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\bin\Debug\net8.0\EffictiveMobileTestTask.exe
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\bin\Debug\net8.0\EffictiveMobileTestTask.deps.json
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\bin\Debug\net8.0\EffictiveMobileTestTask.runtimeconfig.json
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\bin\Debug\net8.0\EffictiveMobileTestTask.dll
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\bin\Debug\net8.0\EffictiveMobileTestTask.pdb
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8.0\EffictiveMobileTestTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8.0\EffictiveMobileTestTask.AssemblyInfoInputs.cache
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8.0\EffictiveMobileTestTask.AssemblyInfo.cs
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8.0\EffictiveMobileTestTask.csproj.CoreCompileInputs.cache
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8.0\EffictiveMobileTestTask.dll
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8.0\refint\EffictiveMobileTestTask.dll
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8.0\EffictiveMobileTestTask.pdb
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8.0\EffictiveMobileTestTask.genruntimeconfig.cache
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8.0\ref\EffictiveMobileTestTask.dll
