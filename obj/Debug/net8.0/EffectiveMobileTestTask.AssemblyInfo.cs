@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EffectiveMobileTestTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e33ea541713258e395ad1f5ecf2c8fe0a1e7cf2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f23de143db9abc7103f7fb3e106afb4d365a71b")]
 [assembly: System.Reflection.AssemblyProductAttribute("EffectiveMobileTestTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EffectiveMobileTestTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

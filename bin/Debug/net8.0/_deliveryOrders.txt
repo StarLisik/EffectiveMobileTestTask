@@ -1,4 +1,4 @@
-Orders for delivery in Север between 23.11.2024 15:33:30 and 23.11.2024 16:03:30:
+Orders for delivery in Север between 23.11.2024 15:33:29 and 23.11.2024 16:03:29:
 
 |Id     |Weight(kg)     |Area           |Time                |
 |-------+---------------+---------------+--------------------|

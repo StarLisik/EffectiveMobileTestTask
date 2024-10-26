@@ -15,3 +15,4 @@ C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8
 C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\bin\Debug\net8.0\NLog.dll
 C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8.0\EffectiveMobileTestTask.csproj.AssemblyReference.cache
 C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8.0\Effectiv.2FCCB46C.Up2Date
+C:\MyFolder\Programs\VisualStudioProjects\EffictiveMobileTestTask\obj\Debug\net8.0\EffectiveMobileTestTask.sourcelink.json

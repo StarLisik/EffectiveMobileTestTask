@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EffectiveMobileTestTask.Classes
 {
-    public class Order  
+    public class Order  // Класс заказа
     {
         public int Id { get; set; }
         public double Weight { get; set; }
@@ -20,10 +20,5 @@ namespace EffectiveMobileTestTask.Classes
             Area = area;
             OrderTime = orderTime;
         }
-
-        //public bool IsPresentId(int id)
-        //{
-
-        //}
     }
 }
