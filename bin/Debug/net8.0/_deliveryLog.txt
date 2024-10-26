@@ -146,3 +146,33 @@
 2024-10-26 22:21:50.9600 | INFO | Order with ID: 6 succesfully added!
 2024-10-26 22:21:50.9600 | INFO | Order with ID: 7 succesfully added!
 2024-10-26 22:21:50.9600 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-26 22:41:31.3310 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 22:41:33.4371 | INFO | Order with ID: 1 succesfully added!
+2024-10-26 22:41:33.4371 | INFO | Order with ID: 2 succesfully added!
+2024-10-26 22:41:33.4371 | INFO | Order with ID: 3 succesfully added!
+2024-10-26 22:41:33.4371 | INFO | Order with ID: 4 succesfully added!
+2024-10-26 22:41:33.4371 | INFO | Order with ID: 5 succesfully added!
+2024-10-26 22:41:33.4371 | INFO | Order with ID: 6 succesfully added!
+2024-10-26 22:41:33.4371 | INFO | Order with ID: 7 succesfully added!
+2024-10-26 22:41:33.4371 | INFO | Order with ID: 8 succesfully added!
+2024-10-26 22:41:33.4371 | INFO | Order with ID: 9 succesfully added!
+2024-10-26 22:41:33.4371 | INFO | Order with ID: 10 succesfully added!
+2024-10-26 22:41:33.4445 | INFO | 2 orders filtered and saved to _deliveryOrders.txt
+2024-10-26 22:45:33.1852 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 22:45:35.2698 | ERROR | Invalid date format for _firstDeliveryDateTime. Pattern: "area" yyyy-mm-dd HH:MM:SS
+2024-10-26 22:46:02.1402 | ERROR | Invalid number of parameters! Using data from config file instead...
+2024-10-26 22:46:04.2093 | ERROR | Invalid date format for _firstDeliveryDateTime. Pattern: "area" yyyy-mm-dd HH:MM:SS
+2024-10-26 22:46:43.9793 | ERROR | Invalid number of parameters! Using data from config file instead...
+2024-10-26 22:46:46.0784 | INFO | Order with ID: 1 succesfully added!
+2024-10-26 22:46:46.0784 | INFO | Order with ID: 2 succesfully added!
+2024-10-26 22:46:46.0784 | INFO | Order with ID: 3 succesfully added!
+2024-10-26 22:46:46.0784 | INFO | Order with ID: 4 succesfully added!
+2024-10-26 22:46:46.0784 | INFO | Order with ID: 5 succesfully added!
+2024-10-26 22:46:46.0784 | INFO | Order with ID: 6 succesfully added!
+2024-10-26 22:46:46.0784 | INFO | Order with ID: 7 succesfully added!
+2024-10-26 22:46:46.0784 | INFO | Order with ID: 8 succesfully added!
+2024-10-26 22:46:46.0784 | INFO | Order with ID: 9 succesfully added!
+2024-10-26 22:46:46.0784 | INFO | Order with ID: 10 succesfully added!
+2024-10-26 22:46:46.0835 | INFO | 0 orders filtered and saved to _deliveryOrders.txt
+2024-10-26 22:47:14.9013 | ERROR | Invalid number of parameters! Using data from config file instead...
+2024-10-26 22:47:16.9768 | ERROR | Invalid date format for _firstDeliveryDateTime. Pattern: "area" yyyy-mm-dd HH:MM:SS

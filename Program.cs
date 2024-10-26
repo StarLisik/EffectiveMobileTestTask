@@ -33,17 +33,16 @@ namespace EffectiveMobileTestTask
             FilterAndSaveOrders(cityDistrict, firstDeliveryDateTime);
         }
 
-        public static string[] ValidateParameters(string[] args)
+        public static string[] ValidateParameters(string[] args) // Валидация входных параметров
         {
             try
             {
-
                 string[] parameters;
                 if (args.Length != 3)
                 {
-                    logger.Error("Invalid number of parameters! Using data from config file instead!");
+                    logger.Error("Invalid number of parameters! Using data from config file instead...");
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("Invalid number of parameters! Using data from config file instead!");
+                    Console.WriteLine("Invalid number of parameters! Using data from config file instead...");
                     Console.ForegroundColor = ConsoleColor.White;
                     Thread.Sleep(2000);
                     parameters = File.ReadAllText("config.txt").Split(" ");
