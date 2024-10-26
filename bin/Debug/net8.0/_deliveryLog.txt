@@ -84,3 +84,65 @@
 2024-10-26 15:13:45.2520 | INFO | Order with ID: 6 succesfully added!
 2024-10-26 15:13:45.2520 | INFO | Order with ID: 7 succesfully added!
 2024-10-26 15:13:45.2600 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-26 16:03:45.9434 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 16:37:44.4940 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 16:38:47.5109 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 16:40:04.5942 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 16:40:06.6562 | INFO | Order with ID: 1 succesfully added!
+2024-10-26 16:40:06.6562 | INFO | Order with ID: 2 succesfully added!
+2024-10-26 16:40:06.6562 | INFO | Order with ID: 3 succesfully added!
+2024-10-26 16:40:06.6562 | INFO | Order with ID: 4 succesfully added!
+2024-10-26 16:40:06.6562 | INFO | Order with ID: 5 succesfully added!
+2024-10-26 16:40:06.6562 | INFO | Order with ID: 6 succesfully added!
+2024-10-26 16:40:06.6562 | INFO | Order with ID: 7 succesfully added!
+2024-10-26 16:40:06.6562 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-26 21:15:12.8961 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 21:15:15.0065 | INFO | Order with ID: 1 succesfully added!
+2024-10-26 21:15:15.0065 | INFO | Order with ID: 2 succesfully added!
+2024-10-26 21:15:15.0065 | INFO | Order with ID: 3 succesfully added!
+2024-10-26 21:15:15.0065 | INFO | Order with ID: 4 succesfully added!
+2024-10-26 21:15:15.0065 | INFO | Order with ID: 5 succesfully added!
+2024-10-26 21:15:15.0065 | INFO | Order with ID: 6 succesfully added!
+2024-10-26 21:15:15.0065 | INFO | Order with ID: 7 succesfully added!
+2024-10-26 21:15:15.0065 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-26 21:19:11.4165 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 21:19:13.5096 | INFO | Order with ID: 1 succesfully added!
+2024-10-26 21:19:13.5096 | INFO | Order with ID: 2 succesfully added!
+2024-10-26 21:19:13.5096 | INFO | Order with ID: 3 succesfully added!
+2024-10-26 21:19:13.5096 | INFO | Order with ID: 4 succesfully added!
+2024-10-26 21:19:13.5096 | INFO | Order with ID: 5 succesfully added!
+2024-10-26 21:19:13.5096 | INFO | Order with ID: 6 succesfully added!
+2024-10-26 21:19:13.5096 | INFO | Order with ID: 7 succesfully added!
+2024-10-26 21:19:13.5096 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-26 21:27:42.2523 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 21:28:26.4294 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 21:50:15.7072 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 21:50:29.6731 | ERROR | Input values have incorrect format! Fix them and try agian!
+2024-10-26 21:50:56.9076 | ERROR | An error occurred while processing orders.
+2024-10-26 21:53:48.5983 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 21:53:50.6946 | ERROR | Input values have incorrect format! Fix them and try again!
+2024-10-26 21:53:53.1198 | ERROR | An error occurred while processing orders.
+2024-10-26 21:55:00.8051 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 21:55:02.9166 | ERROR | Input values have incorrect format! Fix them and try again!
+2024-10-26 21:55:02.9353 | ERROR | An error occurred while processing orders.
+2024-10-26 21:55:12.4137 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 21:55:56.6453 | INFO | Order with ID: 1 succesfully added!
+2024-10-26 21:55:59.5822 | INFO | Order with ID: 2 succesfully added!
+2024-10-26 21:55:59.5822 | INFO | Order with ID: 3 succesfully added!
+2024-10-26 21:55:59.5822 | INFO | Order with ID: 4 succesfully added!
+2024-10-26 21:55:59.5822 | INFO | Order with ID: 5 succesfully added!
+2024-10-26 21:55:59.5822 | INFO | Order with ID: 6 succesfully added!
+2024-10-26 21:55:59.5822 | INFO | Order with ID: 7 succesfully added!
+2024-10-26 21:55:59.5893 | INFO | 3 orders filtered and saved to _deliveryOrders.txt
+2024-10-26 22:08:02.0551 | ERROR | Invalid date format for _firstDeliveryDateTime. Pattern: "area" yyyy-mm-dd HH:MM:SS
+2024-10-26 22:08:27.7221 | ERROR | Invalid date format for _firstDeliveryDateTime. Pattern: "area" yyyy-mm-dd HH:MM:SS
+2024-10-26 22:12:44.9948 | ERROR | Invalid date format for _firstDeliveryDateTime. Pattern: "area" yyyy-mm-dd HH:MM:SS
+2024-10-26 22:21:48.8498 | ERROR | Invalid number of parameters! Using data from config file instead!
+2024-10-26 22:21:50.9600 | INFO | Order with ID: 1 succesfully added!
+2024-10-26 22:21:50.9600 | INFO | Order with ID: 2 succesfully added!
+2024-10-26 22:21:50.9600 | INFO | Order with ID: 3 succesfully added!
+2024-10-26 22:21:50.9600 | INFO | Order with ID: 4 succesfully added!
+2024-10-26 22:21:50.9600 | INFO | Order with ID: 5 succesfully added!
+2024-10-26 22:21:50.9600 | INFO | Order with ID: 6 succesfully added!
+2024-10-26 22:21:50.9600 | INFO | Order with ID: 7 succesfully added!
+2024-10-26 22:21:50.9600 | INFO | 3 orders filtered and saved to _deliveryOrders.txt

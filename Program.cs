@@ -17,29 +17,15 @@ namespace EffectiveMobileTestTask
         {
             ConfigureLogging();
 
-            string[] parameters;
-            if (args.Length != 3)
+            string[] parameters = ValidateParameters(args);
+
+            if (parameters.Length == 0)
             {
-                logger.Error("Invalid number of parameters! Using data from config file instead!");
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Invalid number of parameters! Using data from config file instead!");
-                Console.ForegroundColor = ConsoleColor.White;
-                Thread.Sleep(2000);
-                parameters = File.ReadAllText("config.txt").Split(" ");
-            }
-            else
-            {
-                parameters = args;
+                return;
             }
 
             string cityDistrict = parameters[0];
-            DateTime firstDeliveryDateTime;
-            if (!DateTime.TryParse($"{parameters[1]} {parameters[2]}", out firstDeliveryDateTime))
-            {
-                logger.Error("Invalid date format for _firstDeliveryDateTime. Pattern: \"area\" yyyy-mm-dd HH:MM:SS");
-                Console.WriteLine("Invalid date format for _firstDeliveryDateTime. Pattern: \"area\" yyyy-mm-dd HH:MM:SS");
-                return;
-            }
+            DateTime firstDeliveryDateTime = Convert.ToDateTime(parameters[1]);
 
             if (!WriteDownOrders())
                 return;
@@ -47,37 +33,58 @@ namespace EffectiveMobileTestTask
             FilterAndSaveOrders(cityDistrict, firstDeliveryDateTime);
         }
 
-
-        public static bool WriteDownOrders() // Чтение заказов из файла и запись их в список заказов ordersList
+        public static string[] ValidateParameters(string[] args)
         {
-            IFormatProvider formatter = new NumberFormatInfo { NumberDecimalSeparator = "." }; // Форматтер для указания точки в качестве разделителя
+            try
+            {
+
+                string[] parameters;
+                if (args.Length != 3)
+                {
+                    logger.Error("Invalid number of parameters! Using data from config file instead!");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Invalid number of parameters! Using data from config file instead!");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Thread.Sleep(2000);
+                    parameters = File.ReadAllText("config.txt").Split(" ");
+                }
+                else
+                {
+                    parameters = args;
+                }
+
+                string cityDistrict = parameters[0];
+                DateTime firstDeliveryDateTime;
+                if (!DateTime.TryParse($"{parameters[1]} {parameters[2]}", out firstDeliveryDateTime))
+                {
+                    logger.Error("Invalid date format for _firstDeliveryDateTime. Pattern: \"area\" yyyy-mm-dd HH:MM:SS");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Invalid date format for _firstDeliveryDateTime. Pattern: \"area\" yyyy-mm-dd HH:MM:SS");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    throw new Exception();
+                }
+
+                return new string[] { cityDistrict, firstDeliveryDateTime.ToString("yyyy-MM-dd HH:mm:ss") };
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Something went wrong while validating parameters!");
+                Console.ForegroundColor = ConsoleColor.White;
+                return new string[] { };
+            }
+        }
+
+        public static bool WriteDownOrders() // Запись заказов в список заказов ordersList
+        {
+            IFormatProvider formatter = new NumberFormatInfo { NumberDecimalSeparator = "." }; // Форматтер для указания точки в качестве разделителя дробной части
             List<string> lines = new List<string>();
 
             try
             {
-                using (StreamReader reader = new StreamReader("Orders.txt"))
+                if (!ValidateOrders(ref lines))
                 {
-                    // Регулярное выражение для валидации каждой строки
-                    Regex regex = new Regex("^\\d* \\d*(\\.\\d*)? [A-Za-zА-Яа-я0-9_]* \\d\\d\\d\\d-[0-1]?\\d-[0-3]?\\d [0-2]?\\d:[0-5]?\\d:[0-5]?\\d$");
-
-                    string? line;
-
-                    while ((line = reader.ReadLine()) != null)
-                    {
-                        if (regex.IsMatch(line.Trim()))
-                        {
-                            lines.Add(line);
-                        }
-                        else
-                        {
-                            logger.Error("Input values have incorrect format! Fix them and try agian!");
-                            Console.ForegroundColor = ConsoleColor.Yellow;
-                            Console.WriteLine("Input values have incorrect format! Fix them and try agian!");
-                            Console.ForegroundColor = ConsoleColor.White;
-                            Console.ReadLine();
-                            return false;
-                        }
-                    }
+                    throw new Exception();
                 }
 
                 foreach (var line in lines)
@@ -97,13 +104,44 @@ namespace EffectiveMobileTestTask
             }
             catch (Exception ex)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("An error occurred while processing orders.");
+                Console.ForegroundColor = ConsoleColor.White;
                 logger.Error("An error occurred while processing orders.");
                 Console.ReadLine();
                 return false;
             }
 
             return true;
+        }
+
+        public static bool ValidateOrders(ref List<string>lines) // Валидация каждого заказа
+        {
+            using (StreamReader reader = new StreamReader("Orders.txt"))
+            {
+                // Регулярное выражение для валидации каждой строки
+                Regex regex = new Regex("^\\d* \\d*(\\.\\d*)? [A-Za-zА-Яа-я0-9_]* \\d\\d\\d\\d-[0-1]?\\d-[0-3]?\\d [0-2]?\\d:[0-5]?\\d:[0-5]?\\d$");
+
+                string? line;
+
+                while ((line = reader.ReadLine()) != null)
+                {
+                    if (regex.IsMatch(line.Trim()))
+                    {
+                        lines.Add(line);
+                    }
+                    else
+                    {
+                        logger.Error("Input values have incorrect format! Fix them and try again!");
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Input values have incorrect format! Fix them and try again!");
+                        Console.ForegroundColor = ConsoleColor.White;
+                        return false;
+                    }
+                }
+
+                return true;
+            }
         }
 
         private static void ConfigureLogging() // Настройка логгирования
@@ -143,7 +181,7 @@ namespace EffectiveMobileTestTask
 
                     foreach (var order in filteredOrders)
                     {
-                        writer.WriteLine($"|{order.Id,-7}|{order.Weight,-15:F3}|{order.Area,-15}|{order.OrderTime,-20}|");
+                        writer.WriteLine($"|{order.Id,-7}|{order.Weight,-15:F3}|{order.Area,-15}|{order.OrderTime.ToString("yyyy-MM-dd HH:mm:ss"),-20}|");
                         writer.WriteLine(separator);
                     }
                 }

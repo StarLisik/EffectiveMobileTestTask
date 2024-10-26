@@ -11,9 +11,9 @@ namespace EffectiveMobileTestTask.Classes
         public int Id { get; set; }
         public double Weight { get; set; }
         public string? Area { get; set; }
-        public DateTime? OrderTime { get; set; }
+        public DateTime OrderTime { get; set; }
 
-        public Order(int id, double weight, string? area, DateTime? orderTime)
+        public Order(int id, double weight, string? area, DateTime orderTime)
         {
             Id = id;
             Weight = weight;
