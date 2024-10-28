@@ -50,3 +50,63 @@
 2024-10-28 13:30:20.6254 | INFO | Order with ID: 9 succesfully added!
 2024-10-28 13:30:20.6254 | INFO | Order with ID: 10 succesfully added!
 2024-10-28 13:30:20.6322 | INFO | 2 orders filtered and saved to _deliveryOrders.txt
+2024-10-28 13:41:53.6424 | ERROR | Invalid number of parameters! Using data from config file instead...
+2024-10-28 13:41:55.7700 | INFO | Order with ID: 1 succesfully added!
+2024-10-28 13:41:55.7700 | INFO | Order with ID: 2 succesfully added!
+2024-10-28 13:41:55.7700 | INFO | Order with ID: 3 succesfully added!
+2024-10-28 13:41:55.7700 | INFO | Order with ID: 4 succesfully added!
+2024-10-28 13:41:55.7700 | INFO | Order with ID: 5 succesfully added!
+2024-10-28 13:41:55.7700 | INFO | Order with ID: 6 succesfully added!
+2024-10-28 13:41:55.7700 | INFO | Order with ID: 7 succesfully added!
+2024-10-28 13:41:55.7700 | INFO | Order with ID: 8 succesfully added!
+2024-10-28 13:41:55.7700 | INFO | Order with ID: 9 succesfully added!
+2024-10-28 13:41:55.7700 | INFO | Order with ID: 10 succesfully added!
+2024-10-28 13:41:55.7700 | INFO | 2 orders filtered and saved to _deliveryOrders.txt
+2024-10-28 13:42:31.5517 | ERROR | Invalid number of parameters! Using data from config file instead...
+2024-10-28 13:42:33.6524 | INFO | Order with ID: 1 succesfully added!
+2024-10-28 13:42:33.6524 | INFO | Order with ID: 2 succesfully added!
+2024-10-28 13:42:33.6524 | INFO | Order with ID: 3 succesfully added!
+2024-10-28 13:42:33.6524 | INFO | Order with ID: 4 succesfully added!
+2024-10-28 13:42:33.6524 | INFO | Order with ID: 5 succesfully added!
+2024-10-28 13:42:33.6524 | INFO | Order with ID: 6 succesfully added!
+2024-10-28 13:42:33.6524 | INFO | Order with ID: 7 succesfully added!
+2024-10-28 13:42:33.6524 | INFO | Order with ID: 8 succesfully added!
+2024-10-28 13:42:33.6524 | INFO | Order with ID: 9 succesfully added!
+2024-10-28 13:42:33.6524 | INFO | Order with ID: 10 succesfully added!
+2024-10-28 13:42:33.6524 | INFO | 2 orders filtered and saved to _deliveryOrders.txt
+2024-10-28 13:42:49.4563 | ERROR | Invalid number of parameters! Using data from config file instead...
+2024-10-28 13:42:51.5524 | INFO | Order with ID: 1 succesfully added!
+2024-10-28 13:42:51.5524 | INFO | Order with ID: 2 succesfully added!
+2024-10-28 13:42:51.5524 | INFO | Order with ID: 3 succesfully added!
+2024-10-28 13:42:51.5524 | INFO | Order with ID: 4 succesfully added!
+2024-10-28 13:42:51.5524 | INFO | Order with ID: 5 succesfully added!
+2024-10-28 13:42:51.5524 | INFO | Order with ID: 6 succesfully added!
+2024-10-28 13:42:51.5524 | INFO | Order with ID: 7 succesfully added!
+2024-10-28 13:42:51.5524 | INFO | Order with ID: 8 succesfully added!
+2024-10-28 13:42:51.5524 | INFO | Order with ID: 9 succesfully added!
+2024-10-28 13:42:51.5524 | INFO | Order with ID: 10 succesfully added!
+2024-10-28 13:42:51.5524 | INFO | 2 orders filtered and saved to _deliveryOrders.txt
+2024-10-28 13:44:41.9928 | ERROR | Invalid number of parameters! Using data from config file instead...
+2024-10-28 13:44:44.1567 | INFO | Order with ID: 1 succesfully added!
+2024-10-28 13:44:44.1567 | INFO | Order with ID: 2 succesfully added!
+2024-10-28 13:44:44.1567 | INFO | Order with ID: 3 succesfully added!
+2024-10-28 13:44:44.1567 | INFO | Order with ID: 4 succesfully added!
+2024-10-28 13:44:44.1567 | INFO | Order with ID: 5 succesfully added!
+2024-10-28 13:44:44.1567 | INFO | Order with ID: 6 succesfully added!
+2024-10-28 13:44:44.1567 | INFO | Order with ID: 7 succesfully added!
+2024-10-28 13:44:44.1567 | INFO | Order with ID: 8 succesfully added!
+2024-10-28 13:44:44.1567 | INFO | Order with ID: 9 succesfully added!
+2024-10-28 13:44:44.1567 | INFO | Order with ID: 10 succesfully added!
+2024-10-28 13:44:44.1634 | INFO | 2 orders filtered and saved to _deliveryOrders.txt
+2024-10-28 13:47:07.5055 | ERROR | Invalid number of parameters! Using data from config file instead...
+2024-10-28 13:47:09.6092 | INFO | Order with ID: 1 succesfully added!
+2024-10-28 13:47:09.6092 | INFO | Order with ID: 2 succesfully added!
+2024-10-28 13:47:09.6092 | INFO | Order with ID: 3 succesfully added!
+2024-10-28 13:47:09.6092 | INFO | Order with ID: 4 succesfully added!
+2024-10-28 13:47:09.6092 | INFO | Order with ID: 5 succesfully added!
+2024-10-28 13:47:09.6092 | INFO | Order with ID: 6 succesfully added!
+2024-10-28 13:47:09.6092 | INFO | Order with ID: 7 succesfully added!
+2024-10-28 13:47:09.6092 | INFO | Order with ID: 8 succesfully added!
+2024-10-28 13:47:09.6092 | INFO | Order with ID: 9 succesfully added!
+2024-10-28 13:47:09.6092 | INFO | Order with ID: 10 succesfully added!
+2024-10-28 13:47:09.6164 | INFO | 2 orders filtered and saved to _deliveryOrders.txt

@@ -200,3 +200,16 @@
 2024-10-28 13:27:44.7493 | INFO | Order with ID: 9 succesfully added!
 2024-10-28 13:27:44.7493 | INFO | Order with ID: 10 succesfully added!
 2024-10-28 13:27:44.7592 | INFO | 2 orders filtered and saved to _deliveryOrders.txt!
+2024-10-28 13:45:09.9140 | ERROR | Invalid number of parameters! Using data from config file instead...
+2024-10-28 13:46:29.3497 | ERROR | Invalid number of parameters! Using data from config file instead...
+2024-10-28 13:46:34.6651 | INFO | Order with ID: 1 succesfully added!
+2024-10-28 13:46:34.6651 | INFO | Order with ID: 2 succesfully added!
+2024-10-28 13:46:34.6651 | INFO | Order with ID: 3 succesfully added!
+2024-10-28 13:46:34.6651 | INFO | Order with ID: 4 succesfully added!
+2024-10-28 13:46:34.6651 | INFO | Order with ID: 5 succesfully added!
+2024-10-28 13:46:34.6651 | INFO | Order with ID: 6 succesfully added!
+2024-10-28 13:46:34.6651 | INFO | Order with ID: 7 succesfully added!
+2024-10-28 13:46:34.6651 | INFO | Order with ID: 8 succesfully added!
+2024-10-28 13:46:34.6651 | INFO | Order with ID: 9 succesfully added!
+2024-10-28 13:46:34.6651 | INFO | Order with ID: 10 succesfully added!
+2024-10-28 13:46:34.6651 | INFO | 2 orders filtered and saved to _deliveryOrders.txt

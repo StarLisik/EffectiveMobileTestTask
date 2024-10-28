@@ -82,7 +82,7 @@ namespace EffectiveMobileTestTask
 
             try
             {
-                if (!ValidateOrders(ref lines))
+                if (!ValidateOrders(lines))
                 {
                     throw new Exception();
                 }
@@ -115,7 +115,7 @@ namespace EffectiveMobileTestTask
             return true;
         }
 
-        public static bool ValidateOrders(ref List<string>lines) // Валидация каждого заказа
+        public static bool ValidateOrders(List<string>lines) // Валидация каждого заказа
         {
             using (StreamReader reader = new StreamReader("Orders.txt"))
             {
