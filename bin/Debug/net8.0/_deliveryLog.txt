@@ -176,3 +176,27 @@
 2024-10-26 22:46:46.0835 | INFO | 0 orders filtered and saved to _deliveryOrders.txt
 2024-10-26 22:47:14.9013 | ERROR | Invalid number of parameters! Using data from config file instead...
 2024-10-26 22:47:16.9768 | ERROR | Invalid date format for _firstDeliveryDateTime. Pattern: "area" yyyy-mm-dd HH:MM:SS
+2024-10-28 13:21:55.8585 | ERROR | Invalid number of parameters! Using data from config file instead...
+2024-10-28 13:21:57.9627 | INFO | Order with ID: 1 succesfully added!
+2024-10-28 13:21:57.9627 | INFO | Order with ID: 2 succesfully added!
+2024-10-28 13:21:57.9627 | INFO | Order with ID: 3 succesfully added!
+2024-10-28 13:21:57.9627 | INFO | Order with ID: 4 succesfully added!
+2024-10-28 13:21:57.9627 | INFO | Order with ID: 5 succesfully added!
+2024-10-28 13:21:57.9627 | INFO | Order with ID: 6 succesfully added!
+2024-10-28 13:21:57.9627 | INFO | Order with ID: 7 succesfully added!
+2024-10-28 13:21:57.9627 | INFO | Order with ID: 8 succesfully added!
+2024-10-28 13:21:57.9627 | INFO | Order with ID: 9 succesfully added!
+2024-10-28 13:21:57.9627 | INFO | Order with ID: 10 succesfully added!
+2024-10-28 13:21:57.9627 | INFO | 2 orders filtered and saved to _deliveryOrders.txt
+2024-10-28 13:27:42.6485 | ERROR | Invalid number of parameters! Using data from config file instead...
+2024-10-28 13:27:44.7493 | INFO | Order with ID: 1 succesfully added!
+2024-10-28 13:27:44.7493 | INFO | Order with ID: 2 succesfully added!
+2024-10-28 13:27:44.7493 | INFO | Order with ID: 3 succesfully added!
+2024-10-28 13:27:44.7493 | INFO | Order with ID: 4 succesfully added!
+2024-10-28 13:27:44.7493 | INFO | Order with ID: 5 succesfully added!
+2024-10-28 13:27:44.7493 | INFO | Order with ID: 6 succesfully added!
+2024-10-28 13:27:44.7493 | INFO | Order with ID: 7 succesfully added!
+2024-10-28 13:27:44.7493 | INFO | Order with ID: 8 succesfully added!
+2024-10-28 13:27:44.7493 | INFO | Order with ID: 9 succesfully added!
+2024-10-28 13:27:44.7493 | INFO | Order with ID: 10 succesfully added!
+2024-10-28 13:27:44.7592 | INFO | 2 orders filtered and saved to _deliveryOrders.txt!

@@ -67,6 +67,7 @@ namespace EffectiveMobileTestTask
             }
             catch (Exception ex)
             {
+                logger.Error("Something went wrong while validating parameters!");
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Something went wrong while validating parameters!");
                 Console.ForegroundColor = ConsoleColor.White;
