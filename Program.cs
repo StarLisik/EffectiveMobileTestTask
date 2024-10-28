@@ -186,6 +186,9 @@ namespace EffectiveMobileTestTask
                     }
                 }
 
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"{filteredOrders.Count} orders filtered and saved to _deliveryOrders.txt");
+                Console.ForegroundColor = ConsoleColor.White;
                 logger.Info($"{filteredOrders.Count} orders filtered and saved to _deliveryOrders.txt");
             }
             catch (Exception ex)
