@@ -40,11 +40,11 @@ namespace EffectiveMobileTestTask
                 string[] parameters;
                 if (args.Length != 3)
                 {
-                    logger.Error("Invalid number of parameters! Using data from config file instead...");
+                    logger.Error("Invalid number of input parameters! Using data from config file instead...");
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("Invalid number of parameters! Using data from config file instead...");
+                    Console.WriteLine("Invalid number of input parameters! Using data from config file instead...");
                     Console.ForegroundColor = ConsoleColor.White;
-                    Thread.Sleep(2000);
+                    Thread.Sleep(1000);
                     parameters = File.ReadAllText("config.txt").Split(" ");
                 }
                 else
@@ -99,6 +99,9 @@ namespace EffectiveMobileTestTask
 
                     ordersList.Add(order);
 
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"Order with ID: {id} succesfully added!");
+                    Console.ForegroundColor = ConsoleColor.White;
                     logger.Info($"Order with ID: {id} succesfully added!");
                 }
             }
@@ -190,6 +193,7 @@ namespace EffectiveMobileTestTask
                 Console.WriteLine($"{filteredOrders.Count} orders filtered and saved to _deliveryOrders.txt");
                 Console.ForegroundColor = ConsoleColor.White;
                 logger.Info($"{filteredOrders.Count} orders filtered and saved to _deliveryOrders.txt");
+                Console.ReadLine();
             }
             catch (Exception ex)
             {
