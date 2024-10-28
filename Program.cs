@@ -45,7 +45,7 @@ namespace EffectiveMobileTestTask
                     Console.WriteLine("Invalid number of input parameters! Using data from config file instead...");
                     Console.ForegroundColor = ConsoleColor.White;
                     Thread.Sleep(1000);
-                    parameters = File.ReadAllText("config.txt").Split(" ");
+                    parameters = File.ReadAllText("_config.txt").Split(" ");
                 }
                 else
                 {
@@ -120,7 +120,7 @@ namespace EffectiveMobileTestTask
 
         public static bool ValidateOrders(List<string>lines) // Валидация каждого заказа
         {
-            using (StreamReader reader = new StreamReader("Orders.txt"))
+            using (StreamReader reader = new StreamReader("_Orders.txt"))
             {
                 // Регулярное выражение для валидации каждой строки
                 Regex regex = new Regex("^\\d* \\d*(\\.\\d*)? [A-Za-zА-Яа-я0-9_]* \\d\\d\\d\\d-[0-1]?\\d-[0-3]?\\d [0-2]?\\d:[0-5]?\\d:[0-5]?\\d$");
